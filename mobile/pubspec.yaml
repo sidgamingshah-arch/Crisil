@@ -1,0 +1,102 @@
+name: tourmate
+description: Find travel companions for shared transport and group activities at tourist destinations worldwide.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Network
+  dio: ^5.4.0
+  retrofit: ^4.1.0
+  pretty_dio_logger: ^1.3.1
+
+  # Dependency Injection
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  firebase_messaging: ^14.7.10
+  google_sign_in: ^6.2.1
+
+  # Maps & Location
+  google_maps_flutter: ^2.5.3
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+  # Real-time
+  socket_io_client: ^2.0.3+1
+
+  # Local Storage
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+
+  # Media
+  cached_network_image: ^3.3.1
+  image_picker: ^1.0.7
+
+  # UI
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+  fl_chart: ^0.66.0
+  flutter_svg: ^2.0.9
+  pin_code_fields: ^8.0.1
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  timeago: ^3.6.0
+  url_launcher: ^6.2.3
+  share_plus: ^7.2.2
+  connectivity_plus: ^5.0.2
+
+  # Code Generation (runtime)
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  retrofit_generator: ^8.1.0
+  injectable_generator: ^2.4.1
+  mockito: ^5.4.4
+  bloc_test: ^9.1.6
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700

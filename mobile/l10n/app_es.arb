@@ -1,0 +1,19 @@
+{
+  "@@locale": "es",
+  "appTitle": "TourMate",
+  "welcomeTitle": "Bienvenido a TourMate",
+  "welcomeSubtitle": "Encuentra compañeros de viaje, comparte transporte y desbloquea descuentos grupales en todo el mundo.",
+  "continueWithGoogle": "Continuar con Google",
+  "continueWithApple": "Continuar con Apple",
+  "discoverTab": "Descubrir",
+  "transportTab": "Transporte",
+  "activitiesTab": "Actividades",
+  "chatTab": "Chat",
+  "profileTab": "Perfil",
+  "joinRide": "Unirse al viaje",
+  "createRide": "Crear viaje",
+  "joinActivity": "Unirse a la actividad",
+  "typeAMessage": "Escribe un mensaje...",
+  "signInError": "Error al iniciar sesión. Inténtalo de nuevo.",
+  "networkError": "Sin conexión a internet."
+}

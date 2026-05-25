@@ -1,0 +1,73 @@
+name: Backend CI
+
+on:
+  push:
+    branches: [main, develop]
+    paths: ['backend/**']
+  pull_request:
+    branches: [main, develop]
+    paths: ['backend/**']
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgis/postgis:16-3.4
+        env:
+          POSTGRES_DB: tourmate_test
+          POSTGRES_USER: tourmate
+          POSTGRES_PASSWORD: tourmate_test_secret
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      NODE_ENV: test
+      DB_HOST: localhost
+      DB_PORT: 5432
+      TEST_DB_NAME: tourmate_test
+      DB_USER: tourmate
+      DB_PASSWORD: tourmate_test_secret
+      REDIS_URL: redis://localhost:6379
+      JWT_SECRET: test_jwt_secret_for_ci
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: backend
+
+      - name: Run migrations (test DB)
+        run: npm run migrate:test
+        working-directory: backend
+
+      - name: Run unit tests
+        run: npm test -- --testPathPattern="tests/unit"
+        working-directory: backend
+
+      - name: Lint
+        run: npm run lint
+        working-directory: backend

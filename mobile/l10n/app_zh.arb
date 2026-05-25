@@ -1,0 +1,19 @@
+{
+  "@@locale": "zh",
+  "appTitle": "TourMate",
+  "welcomeTitle": "欢迎使用TourMate",
+  "welcomeSubtitle": "在全球各地找到旅行伙伴，共享交通，解锁团体优惠。",
+  "continueWithGoogle": "使用Google继续",
+  "continueWithApple": "使用Apple继续",
+  "discoverTab": "发现",
+  "transportTab": "交通",
+  "activitiesTab": "活动",
+  "chatTab": "聊天",
+  "profileTab": "个人",
+  "joinRide": "加入拼车",
+  "createRide": "发布拼车",
+  "joinActivity": "参加活动",
+  "typeAMessage": "输入消息...",
+  "signInError": "登录失败，请重试。",
+  "networkError": "无网络连接。"
+}

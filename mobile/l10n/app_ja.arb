@@ -1,0 +1,19 @@
+{
+  "@@locale": "ja",
+  "appTitle": "TourMate",
+  "welcomeTitle": "TourMateへようこそ",
+  "welcomeSubtitle": "旅仲間を見つけ、交通費をシェアし、グループ割引を世界中でご利用ください。",
+  "continueWithGoogle": "Googleで続ける",
+  "continueWithApple": "Appleで続ける",
+  "discoverTab": "発見",
+  "transportTab": "交通",
+  "activitiesTab": "アクティビティ",
+  "chatTab": "チャット",
+  "profileTab": "プロフィール",
+  "joinRide": "乗車する",
+  "createRide": "乗車募集",
+  "joinActivity": "参加する",
+  "typeAMessage": "メッセージを入力...",
+  "signInError": "サインインに失敗しました。もう一度お試しください。",
+  "networkError": "インターネット接続がありません。"
+}
