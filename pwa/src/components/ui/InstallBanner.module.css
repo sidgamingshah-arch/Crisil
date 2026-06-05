@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-primary);
+  color: var(--color-white);
+  animation: slideDown 300ms ease;
+}
+
+.icon { font-size: 20px; flex-shrink: 0; }
+
+.copy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-xs);
+  gap: 2px;
+}
+
+.text { flex: 1; font-size: var(--font-size-xs); line-height: 1.4; }
+
+.installBtn {
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-white);
+  color: var(--color-primary);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.dismiss {
+  color: rgba(255,255,255,.7);
+  font-size: 14px;
+  padding: var(--space-1);
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to   { transform: translateY(0); }
+}

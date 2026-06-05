@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "tagline": "旅仲間を見つけ、交通をシェアし、グループ割引を解放しよう。",
+    "sign_in_google": "Googleで続ける",
+    "sign_in_apple": "Appleで続ける",
+    "terms_notice": "続けることで、利用規約とプライバシーポリシーに同意したことになります。",
+    "feature_discover": "旅行者を探す",
+    "feature_transport": "交通シェア",
+    "feature_activities": "グループ割引",
+    "feature_chat": "リアルタイムチャット"
+  },
+  "nav": {
+    "discover":   "探す",
+    "transport":  "交通",
+    "activities": "アクティビティ",
+    "chat":       "チャット",
+    "profile":    "プロフィール"
+  },
+  "discover": {
+    "title": "探す",
+    "sharing": "位置情報共有中",
+    "not_sharing": "位置情報オフ",
+    "all_destinations": "すべての目的地",
+    "search_destination": "目的地を検索…",
+    "no_destinations": "目的地が見つかりません",
+    "enable_gps": "近くの旅行者を見るには位置情報を有効にしてください",
+    "nearby_travelers": "近くに{{count}}人の旅行者",
+    "no_nearby_users": "近くに旅行者が見つかりません。検索範囲を広げてみてください。"
+  },
+  "transport": {
+    "title": "相乗り交通",
+    "subtitle": "目的地への交通を探す",
+    "create": "新規リクエスト",
+    "create_title": "乗車リクエスト",
+    "per_person": "1人あたり",
+    "full": "満員",
+    "seats_left": "残り{{count}}席",
+    "join": "参加",
+    "join_title": "この乗車に参加",
+    "destination": "目的地",
+    "departure": "出発時刻",
+    "cost": "費用",
+    "confirm_join": "参加を確認",
+    "no_requests": "近くに乗車リクエストがありません。最初のリクエストを作りましょう！",
+    "be_first": "乗車を作成",
+    "seats": "総席数",
+    "price_placeholder": "1人あたりの価格 (USD)",
+    "post_request": "リクエストを投稿"
+  },
+  "activities": {
+    "title": "グループアクティビティ",
+    "group_discount_hint": "グループに参加して低価格を解放しよう",
+    "no_activities": "この目的地のアクティビティが見つかりません。",
+    "you_save": "{{amount}}節約できます",
+    "spots_to_discount": "次の割引まであと{{count}}人",
+    "max_discount_unlocked": "🎉 最大割引を解放しました！",
+    "full": "満員",
+    "join": "グループに参加",
+    "join_group": "このグループに参加",
+    "participants": "参加者",
+    "people": "人",
+    "discount_tiers": "割引段階"
+  },
+  "chat": {
+    "title": "メッセージ",
+    "no_conversations": "会話がまだありません",
+    "start_hint": "発見画面からチャットを始めましょう",
+    "type_message": "メッセージを入力…",
+    "send": "送信",
+    "group_chat": "グループチャット",
+    "members": "メンバー"
+  },
+  "profile": {
+    "verified": "認証済み",
+    "reviews": "件のレビュー",
+    "bio_placeholder": "他の旅行者に自己紹介してください…",
+    "no_bio": "まだ自己紹介がありません。",
+    "languages": "言語",
+    "trips": "旅行",
+    "activities": "アクティビティ",
+    "member_since": "登録",
+    "edit": "プロフィールを編集",
+    "save": "保存",
+    "language": "アプリの言語",
+    "sign_out": "サインアウト",
+    "not_found": "プロフィールが見つかりません"
+  },
+  "install": {
+    "title": "TourMateをインストール",
+    "subtitle": "ホーム画面に追加して最高の体験を",
+    "cta": "インストール",
+    "ios_hint": "共有ボタンをタップし「ホーム画面に追加」を選んでください"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "back": "戻る",
+    "loading": "読み込み中…",
+    "error": "エラーが発生しました。タップして再試行してください。"
+  }
+}

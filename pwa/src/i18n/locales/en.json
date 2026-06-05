@@ -1,0 +1,104 @@
+{
+  "auth": {
+    "tagline": "Find travel companions, share rides & unlock group discounts worldwide.",
+    "sign_in_google": "Continue with Google",
+    "sign_in_apple": "Continue with Apple",
+    "terms_notice": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+    "feature_discover": "Discover travelers",
+    "feature_transport": "Share rides",
+    "feature_activities": "Group discounts",
+    "feature_chat": "Real-time chat"
+  },
+  "nav": {
+    "discover":   "Discover",
+    "transport":  "Transport",
+    "activities": "Activities",
+    "chat":       "Chat",
+    "profile":    "Profile"
+  },
+  "discover": {
+    "title": "Discover",
+    "sharing": "Sharing location",
+    "not_sharing": "Location off",
+    "all_destinations": "All destinations",
+    "search_destination": "Search destinations…",
+    "no_destinations": "No destinations found",
+    "enable_gps": "Enable location to see nearby travelers",
+    "nearby_travelers": "{{count}} nearby traveler",
+    "nearby_travelers_plural": "{{count}} nearby travelers",
+    "no_nearby_users": "No travelers found nearby. Try increasing the radius."
+  },
+  "transport": {
+    "title": "Shared Transport",
+    "subtitle": "Find a ride to your destination",
+    "create": "New request",
+    "create_title": "Request a ride",
+    "per_person": "per person",
+    "full": "Full",
+    "seats_left": "{{count}} seat left",
+    "seats_left_plural": "{{count}} seats left",
+    "join": "Join",
+    "join_title": "Join this ride",
+    "destination": "Destination",
+    "departure": "Departure",
+    "cost": "Cost",
+    "confirm_join": "Confirm join",
+    "no_requests": "No rides nearby. Be the first to create one!",
+    "be_first": "Create a ride",
+    "seats": "Total seats",
+    "price_placeholder": "Price per person (USD)",
+    "post_request": "Post request"
+  },
+  "activities": {
+    "title": "Group Activities",
+    "group_discount_hint": "Join groups to unlock lower prices",
+    "no_activities": "No activities found for this destination.",
+    "you_save": "You save {{amount}}",
+    "spots_to_discount": "{{count}} more person to next discount",
+    "spots_to_discount_plural": "{{count}} more people to next discount",
+    "max_discount_unlocked": "🎉 Maximum discount unlocked!",
+    "full": "Full",
+    "join": "Join group",
+    "join_group": "Join this group",
+    "participants": "participants",
+    "people": "people",
+    "discount_tiers": "Discount tiers"
+  },
+  "chat": {
+    "title": "Messages",
+    "no_conversations": "No conversations yet",
+    "start_hint": "Start a chat from the Discover screen",
+    "type_message": "Type a message…",
+    "send": "Send",
+    "group_chat": "Group Chat",
+    "members": "members"
+  },
+  "profile": {
+    "verified": "Verified",
+    "reviews": "reviews",
+    "bio_placeholder": "Tell other travelers about yourself…",
+    "no_bio": "No bio yet.",
+    "languages": "Languages",
+    "trips": "Trips",
+    "activities": "Activities",
+    "member_since": "Since",
+    "edit": "Edit profile",
+    "save": "Save",
+    "language": "App language",
+    "sign_out": "Sign out",
+    "not_found": "Profile not found"
+  },
+  "install": {
+    "title": "Install TourMate",
+    "subtitle": "Add to home screen for the best experience",
+    "cta": "Install",
+    "ios_hint": "Tap the Share button then "Add to Home Screen" to install TourMate"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "loading": "Loading…",
+    "error": "Something went wrong. Tap to retry."
+  }
+}

@@ -1,0 +1,9 @@
+.loading, .error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--color-grey-500);
+  font-size: var(--font-size-base);
+}

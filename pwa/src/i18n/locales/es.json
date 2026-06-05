@@ -1,0 +1,104 @@
+{
+  "auth": {
+    "tagline": "Encuentra compañeros de viaje, comparte trayectos y desbloquea descuentos grupales.",
+    "sign_in_google": "Continuar con Google",
+    "sign_in_apple": "Continuar con Apple",
+    "terms_notice": "Al continuar, aceptas nuestros Términos de servicio y Política de privacidad.",
+    "feature_discover": "Descubrir viajeros",
+    "feature_transport": "Compartir transporte",
+    "feature_activities": "Descuentos grupales",
+    "feature_chat": "Chat en tiempo real"
+  },
+  "nav": {
+    "discover":   "Descubrir",
+    "transport":  "Transporte",
+    "activities": "Actividades",
+    "chat":       "Chat",
+    "profile":    "Perfil"
+  },
+  "discover": {
+    "title": "Descubrir",
+    "sharing": "Compartiendo ubicación",
+    "not_sharing": "Ubicación desactivada",
+    "all_destinations": "Todos los destinos",
+    "search_destination": "Buscar destinos…",
+    "no_destinations": "No se encontraron destinos",
+    "enable_gps": "Activa la ubicación para ver viajeros cercanos",
+    "nearby_travelers": "{{count}} viajero cercano",
+    "nearby_travelers_plural": "{{count}} viajeros cercanos",
+    "no_nearby_users": "No se encontraron viajeros cerca. Intenta aumentar el radio."
+  },
+  "transport": {
+    "title": "Transporte compartido",
+    "subtitle": "Encuentra un trayecto a tu destino",
+    "create": "Nueva solicitud",
+    "create_title": "Solicitar un trayecto",
+    "per_person": "por persona",
+    "full": "Lleno",
+    "seats_left": "{{count}} asiento disponible",
+    "seats_left_plural": "{{count}} asientos disponibles",
+    "join": "Unirse",
+    "join_title": "Unirse a este trayecto",
+    "destination": "Destino",
+    "departure": "Salida",
+    "cost": "Coste",
+    "confirm_join": "Confirmar",
+    "no_requests": "No hay trayectos cerca. ¡Sé el primero!",
+    "be_first": "Crear trayecto",
+    "seats": "Asientos totales",
+    "price_placeholder": "Precio por persona (USD)",
+    "post_request": "Publicar solicitud"
+  },
+  "activities": {
+    "title": "Actividades grupales",
+    "group_discount_hint": "Únete a grupos para desbloquear precios más bajos",
+    "no_activities": "No se encontraron actividades para este destino.",
+    "you_save": "Ahorras {{amount}}",
+    "spots_to_discount": "{{count}} persona más para el próximo descuento",
+    "spots_to_discount_plural": "{{count}} personas más para el próximo descuento",
+    "max_discount_unlocked": "🎉 ¡Descuento máximo desbloqueado!",
+    "full": "Lleno",
+    "join": "Unirse al grupo",
+    "join_group": "Unirse a este grupo",
+    "participants": "participantes",
+    "people": "personas",
+    "discount_tiers": "Niveles de descuento"
+  },
+  "chat": {
+    "title": "Mensajes",
+    "no_conversations": "Sin conversaciones aún",
+    "start_hint": "Inicia un chat desde la pantalla Descubrir",
+    "type_message": "Escribe un mensaje…",
+    "send": "Enviar",
+    "group_chat": "Chat grupal",
+    "members": "miembros"
+  },
+  "profile": {
+    "verified": "Verificado",
+    "reviews": "reseñas",
+    "bio_placeholder": "Cuéntales a otros viajeros sobre ti…",
+    "no_bio": "Sin bio aún.",
+    "languages": "Idiomas",
+    "trips": "Viajes",
+    "activities": "Actividades",
+    "member_since": "Desde",
+    "edit": "Editar perfil",
+    "save": "Guardar",
+    "language": "Idioma de la app",
+    "sign_out": "Cerrar sesión",
+    "not_found": "Perfil no encontrado"
+  },
+  "install": {
+    "title": "Instalar TourMate",
+    "subtitle": "Añade a la pantalla de inicio para la mejor experiencia",
+    "cta": "Instalar",
+    "ios_hint": "Toca Compartir y luego "Añadir a pantalla de inicio" para instalar TourMate"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "loading": "Cargando…",
+    "error": "Algo salió mal. Toca para reintentar."
+  }
+}

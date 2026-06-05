@@ -1,0 +1,81 @@
+/* Design tokens — mirrors mobile/lib/core/theme/app_colors.dart */
+:root {
+  /* Brand */
+  --color-primary:        #0066FF;
+  --color-primary-dark:   #0047CC;
+  --color-primary-light:  #4D94FF;
+  --color-secondary:      #00C896;
+  --color-secondary-dark: #00A076;
+
+  /* Feature colours */
+  --color-transport:      #FF6B35;
+  --color-discount:       #00C896;
+  --color-discount-amber: #FFC107;
+
+  /* Semantic */
+  --color-success:  #2ECC71;
+  --color-warning:  #F39C12;
+  --color-error:    #E74C3C;
+  --color-info:     #3498DB;
+
+  /* Neutral */
+  --color-white:    #FFFFFF;
+  --color-black:    #000000;
+  --color-grey-50:  #F8FAFC;
+  --color-grey-100: #F1F5F9;
+  --color-grey-200: #E2E8F0;
+  --color-grey-300: #CBD5E1;
+  --color-grey-400: #94A3B8;
+  --color-grey-500: #64748B;
+  --color-grey-600: #475569;
+  --color-grey-700: #334155;
+  --color-grey-800: #1E293B;
+  --color-grey-900: #0F172A;
+
+  /* Map pins */
+  --color-pin-self:     #0066FF;
+  --color-pin-other:    #FF6B35;
+  --color-pin-activity: #00C896;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-size-xs:   12px;
+  --font-size-sm:   13px;
+  --font-size-base: 14px;
+  --font-size-md:   16px;
+  --font-size-lg:   20px;
+  --font-size-xl:   24px;
+  --font-size-2xl:  28px;
+  --font-size-3xl:  32px;
+
+  /* Spacing (8-pt grid) */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.10), 0 2px 4px rgba(0,0,0,.06);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+  /* Safe areas (iOS notch / bottom bar) */
+  --safe-top:    env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* Bottom nav height */
+  --bottom-nav-height: 64px;
+}

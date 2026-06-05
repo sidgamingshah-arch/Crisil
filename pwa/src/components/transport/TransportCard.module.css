@@ -1,0 +1,100 @@
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-grey-200);
+  cursor: pointer;
+  transition: box-shadow 150ms;
+}
+.card:active { box-shadow: var(--shadow-md); }
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.typeIcon { font-size: 32px; flex-shrink: 0; }
+
+.route { flex: 1; min-width: 0; }
+
+.destination {
+  display: block;
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--color-grey-900);
+  margin-bottom: 2px;
+}
+
+.time {
+  font-size: var(--font-size-xs);
+  color: var(--color-grey-500);
+}
+
+.priceWrap {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.price {
+  display: block;
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  color: var(--color-transport);
+}
+
+.perPerson {
+  font-size: 10px;
+  color: var(--color-grey-400);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-grey-100);
+}
+
+.organizer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.organizerName {
+  font-size: var(--font-size-xs);
+  color: var(--color-grey-700);
+  font-weight: 500;
+}
+
+.rating { font-size: var(--font-size-xs); color: var(--color-grey-500); }
+
+.seats { display: flex; align-items: center; gap: var(--space-2); }
+
+.seatsBadge {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-secondary);
+  background: rgba(0,200,150,.1);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+}
+
+.seatsBadge.full {
+  color: var(--color-grey-500);
+  background: var(--color-grey-100);
+}
+
+.joinBtn {
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-transport);
+  color: var(--color-white);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  transition: opacity 150ms;
+}
+.joinBtn:active { opacity: .85; }

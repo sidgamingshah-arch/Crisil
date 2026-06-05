@@ -1,0 +1,82 @@
+.meter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.priceRow {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.price {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-grey-900);
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  transition: color 300ms;
+}
+
+.price.discounted { color: var(--color-discount); }
+
+.strikethrough {
+  font-size: var(--font-size-md);
+  color: var(--color-grey-400);
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.discountBadge {
+  padding: 3px var(--space-2);
+  background: var(--color-discount);
+  color: white;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+}
+
+.savings {
+  font-size: var(--font-size-xs);
+  color: var(--color-discount);
+  font-weight: 600;
+}
+
+.progressSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.progressTrack {
+  height: 6px;
+  background: var(--color-grey-200);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-discount), var(--color-primary));
+  border-radius: var(--radius-full);
+  transition: width 600ms cubic-bezier(.32,1,.23,1);
+}
+
+.progressLabel {
+  font-size: var(--font-size-xs);
+  color: var(--color-grey-500);
+}
+
+.maxTier {
+  font-size: var(--font-size-xs);
+  color: var(--color-discount);
+  font-weight: 600;
+}

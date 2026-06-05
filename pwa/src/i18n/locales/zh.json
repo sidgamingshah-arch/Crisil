@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "tagline": "寻找旅伴、拼车出行、解锁团体折扣，畅游全球。",
+    "sign_in_google": "使用 Google 继续",
+    "sign_in_apple": "使用 Apple 继续",
+    "terms_notice": "继续即表示您同意我们的服务条款和隐私政策。",
+    "feature_discover": "发现旅行者",
+    "feature_transport": "共享出行",
+    "feature_activities": "团体折扣",
+    "feature_chat": "实时聊天"
+  },
+  "nav": {
+    "discover":   "发现",
+    "transport":  "交通",
+    "activities": "活动",
+    "chat":       "聊天",
+    "profile":    "我的"
+  },
+  "discover": {
+    "title": "发现",
+    "sharing": "正在共享位置",
+    "not_sharing": "位置已关闭",
+    "all_destinations": "所有目的地",
+    "search_destination": "搜索目的地…",
+    "no_destinations": "未找到目的地",
+    "enable_gps": "启用定位以查看附近旅行者",
+    "nearby_travelers": "附近{{count}}位旅行者",
+    "no_nearby_users": "附近没有旅行者。请尝试扩大搜索范围。"
+  },
+  "transport": {
+    "title": "共享交通",
+    "subtitle": "寻找前往目的地的拼车",
+    "create": "新建请求",
+    "create_title": "请求拼车",
+    "per_person": "每人",
+    "full": "已满",
+    "seats_left": "剩余{{count}}个座位",
+    "join": "加入",
+    "join_title": "加入此行程",
+    "destination": "目的地",
+    "departure": "出发时间",
+    "cost": "费用",
+    "confirm_join": "确认加入",
+    "no_requests": "附近没有拼车请求。成为第一个吧！",
+    "be_first": "创建拼车",
+    "seats": "总座位数",
+    "price_placeholder": "每人价格（美元）",
+    "post_request": "发布请求"
+  },
+  "activities": {
+    "title": "团体活动",
+    "group_discount_hint": "加入团体解锁更低价格",
+    "no_activities": "未找到此目的地的活动。",
+    "you_save": "您节省了 {{amount}}",
+    "spots_to_discount": "还需{{count}}人享受下一个折扣",
+    "max_discount_unlocked": "🎉 已解锁最大折扣！",
+    "full": "已满",
+    "join": "加入团体",
+    "join_group": "加入此团体",
+    "participants": "人",
+    "people": "人",
+    "discount_tiers": "折扣阶梯"
+  },
+  "chat": {
+    "title": "消息",
+    "no_conversations": "暂无会话",
+    "start_hint": "从发现页面开始聊天",
+    "type_message": "输入消息…",
+    "send": "发送",
+    "group_chat": "群聊",
+    "members": "位成员"
+  },
+  "profile": {
+    "verified": "已认证",
+    "reviews": "条评价",
+    "bio_placeholder": "向其他旅行者介绍一下自己…",
+    "no_bio": "暂无个人简介。",
+    "languages": "语言",
+    "trips": "行程",
+    "activities": "活动",
+    "member_since": "加入于",
+    "edit": "编辑资料",
+    "save": "保存",
+    "language": "应用语言",
+    "sign_out": "退出登录",
+    "not_found": "未找到用户"
+  },
+  "install": {
+    "title": "安装 TourMate",
+    "subtitle": "添加到主屏幕以获得最佳体验",
+    "cta": "安装",
+    "ios_hint": "点击分享按钮，然后选择"添加到主屏幕"来安装 TourMate"
+  },
+  "common": {
+    "cancel": "取消",
+    "close": "关闭",
+    "back": "返回",
+    "loading": "加载中…",
+    "error": "出现错误，请点击重试。"
+  }
+}
